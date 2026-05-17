@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-container
-        image: host.docker.internal:80/demo/devops-demo:u890345
+        image: localhost/demo/devops-demo:u890345
         ports:
         - containerPort: 8080
       imagePullSecrets:
