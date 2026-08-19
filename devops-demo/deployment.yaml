@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web-container
-        image: host.docker.internal:80/demo/devops-demo:853b7d6
+        image: registry.gitlab.com/shyambista/docker-images/devops-demo:24d0274
         ports:
         - containerPort: 8080
       imagePullSecrets:
